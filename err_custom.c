@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- *_eputs - prints an input string
+ * err_puts - prints an input string
  * @str: the string to be printed
  *
  * Return: Nothing
@@ -20,7 +20,7 @@ void err_puts(char *str)
 }
 
 /**
- * _eputchar - writes the character c to stderr
+ * err_putchar - writes the character c to stderr
  * @c: The character to print
  *
  * Return: On success 1.
